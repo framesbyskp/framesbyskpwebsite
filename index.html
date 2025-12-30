@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasanth SK | Frames by SKP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: #ffffff; overflow-x: hidden; }
+        .gallery-item { transition: all 0.5s ease; cursor: pointer; position: relative; overflow: hidden; }
+        .gallery-item:hover { transform: translateY(-5px); filter: brightness(1.1); }
+        .masonry { column-count: 1; column-gap: 1.5rem; }
+        @media (min-width: 768px) { .masonry { column-count: 2; } }
+        @media (min-width: 1024px) { .masonry { column-count: 3; } }
+        .break-inside-avoid { break-inside: avoid; }
+    </style>
+</head>
+<body>
+
+<nav class="p-8 flex justify-between items-center sticky top-0 bg-black/80 backdrop-blur-md z-50">
+    <div class="w-48">
+        <img src="F.jpg" alt="Frames by SKP Logo" class="w-full">
+    </div>
+    <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest font-light">
+        <a href="#gallery" class="hover:text-white transition">Gallery</a>
+        <a href="#services" class="hover:text-white transition">Services</a>
+        <a href="#contact" class="hover:text-white transition">Collaborate</a>
+    </div>
+</nav>
+
+    <header class="py-24 px-8 max-w-6xl mx-auto text-center" id="about">
+        <h1 class="text-5xl md:text-7xl font-light mb-6 tracking-tighter">Prasanth <span class="italic text-gray-400">SK</span></h1>
+        <p class="text-gray-500 max-w-lg mx-auto font-light leading-relaxed uppercase tracking-[0.3em] text-xs mb-8">
+            Frames by SKP | Visual Narratives
+        </p>
+        <p class="text-gray-300 max-w-2xl mx-auto font-light text-lg leading-relaxed">
+            Specializing in high-end photography and videography for events, solos, and groups. I am happy to collaborate or work with people who need visual storytelling for any occasion.
+        </p>
+    </header>
+
+    <main id="gallery" class="px-6 pb-20 max-w-[1600px] mx-auto">
+        <div class="masonry">
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2384.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2385.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2386.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2387.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2388.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2891.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2892.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2906.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2907.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2908 (1).JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2909.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2910.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2176.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2202.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2383.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2184.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2178.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2031.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2179.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2180.JPG" class="rounded-sm w-full shadow-2xl"></div>
+            <div class="gallery-item break-inside-avoid mb-6"><img src="IMG_2181 (1).JPG" class="rounded-sm w-full shadow-2xl"></div>
+        </div> 
+    </main>
+
+    <section id="services" class="py-20 bg-white/5 px-8 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-xs uppercase tracking-[0.5em] text-gray-500 mb-12">Expertise</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <div>
+                    <i class="fa-solid fa-camera text-2xl mb-4 text-gray-400"></i>
+                    <h3 class="font-light tracking-widest uppercase text-sm mb-2">Events</h3>
+                    <p class="text-xs text-gray-500 font-light">Coverage for weddings, corporate functions, and celebrations.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-group text-2xl mb-4 text-gray-400"></i>
+                    <h3 class="font-light tracking-widest uppercase text-sm mb-2">Solos & Groups</h3>
+                    <p class="text-xs text-gray-500 font-light">Professional portraiture for individuals and teams.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video text-2xl mb-4 text-gray-400"></i>
+                    <h3 class="font-light tracking-widest uppercase text-sm mb-2">Videography</h3>
+                    <p class="text-xs text-gray-500 font-light">Cinematic event highlights and creative storytelling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full mt-10 overflow-hidden">
+        <div class="relative group">
+            <img src="IMG_2812.JPG" 
+                 class="w-full h-[75vh] object-cover grayscale transition-all duration-1000 ease-in-out shadow-2xl" 
+                 alt="Prasanth SK Showcase">
+            <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
+                <h2 class="text-white text-3xl font-light tracking-[0.4em] uppercase mb-4">Let's Create</h2>
+                <p class="text-gray-300 tracking-widest text-[10px] uppercase font-light">Open for Photography & Videography Collaborations</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-8 text-center">
+        <h2 class="text-2xl font-light tracking-[0.3em] uppercase mb-6">Need a Visual?</h2>
+        <p class="text-gray-400 mb-12 max-w-lg mx-auto font-light">
+            I am happy to work with people who need professional photography or videography for anything. Let's build something together.
+        </p>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+            <a href="mailto:framesbyskp@gmail.com" class="border border-white/20 px-10 py-4 uppercase tracking-[0.2em] text-[10px] hover:bg-white hover:text-black transition duration-500">
+                Email Prasanth
+            </a>
+            <a href="https://www.instagram.com/framesby.skp/" target="_blank" class="text-[10px] uppercase tracking-[0.2em] hover:text-gray-400 transition">
+                <i class="fa-brands fa-instagram mr-2 text-base"></i> @framesby.skp
+            </a>
+        </div>
+    </section>
+
+    <footer class="border-t border-white/5 py-12 text-center text-[10px] tracking-[0.3em] text-gray-600 uppercase">
+        <p>&copy; 2025 Prasanth SK. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
